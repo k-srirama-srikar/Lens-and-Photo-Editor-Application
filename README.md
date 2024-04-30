@@ -70,7 +70,7 @@ Photo Lens Application.<br><br>
 • Created the preview function in Photo Editor Application.<br>
 • Designed the Introductory Window and its corresponding
 functions.<br><br>
-Pentakota Narayana Chanakya:<br>
+3. Pentakota Narayana Chanakya:<br>
 • Created Undo button, Redo buttons and corresponding
 functions for every action in the Photo Editor Application.<br>
 • Created the Adjust option functions and Blurring
