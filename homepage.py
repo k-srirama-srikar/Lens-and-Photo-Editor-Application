@@ -27,8 +27,8 @@ def open_editor():
     # try:
     #     editorv1.app1.mainloop()
     # except:
-    editorv1.app1 = ctk.CTk()
-    editorv1.app1.mainloop()
+    editor.app1 = ctk.CTk()
+    editor.app1.mainloop()
     # editorv1.app1.mainloop()
 
 
@@ -48,10 +48,10 @@ def open_lens():
     app.destroy()
     import lens
     try:
-        lensv1.app2.mainloop()
+        lens.app2.mainloop()
     except:
-        lensv1.app2 = lensv1.CustomTkinterApp()
-        lensv1.app2.mainloop()
+        lens.app2 = lensv1.CustomTkinterApp()
+        lens.app2.mainloop()
 
 
 
