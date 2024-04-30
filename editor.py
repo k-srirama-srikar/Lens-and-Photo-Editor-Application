@@ -136,10 +136,10 @@ class PhotoEdit1:
         import homepage
 
         try:
-            intropagev1.app.mainloop()
+            homepage.app.mainloop()
         except:
-            intropagev1.app = ctk.CTk()
-            intropagev1.app.mainloop()
+            homepage.app = ctk.CTk()
+            homepage.app.mainloop()
 
     def upload_button(self):
         self.canvas.delete("all")
