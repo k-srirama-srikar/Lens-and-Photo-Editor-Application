@@ -75,4 +75,9 @@ functions.<br><br>
 functions for every action in the Photo Editor Application.<br>
 • Created the Adjust option functions and Blurring
 functions in Photo Editor Application.<br>
-• Created the lenses in the Photo Editor Application.<br>
+• Created the lenses in the Photo Editor Application.
+
+<br>
+
+### License
+This project is licensed under the MIT License. 
