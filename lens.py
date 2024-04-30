@@ -753,10 +753,10 @@ class CustomTkinterApp(ctk.CTk):
         self.destroy()
         import homepage
         try:
-            intropagev1.app.mainloop()
+            homepage.app.mainloop()
         except:
-            intropagev1.app = ctk.CTk()
-            intropagev1.app.mainloop()
+            homepage.app = ctk.CTk()
+            homepage.app.mainloop()
 
     def stop_video_stream(self):
         self.video_widget.stop()
