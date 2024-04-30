@@ -1040,10 +1040,10 @@ class PhotoEdit1:
             xcord = event.x
             ycord = event.y
             self.zget = self.zoom_slider.get()
-            # if event.delta > 0:
-            #     self.zoom_slider.set(self.zget + 0.5)
-            # elif event.delta < 0:
-            #     self.zoom_slider.set(self.zget - 0.5)
+            if event.delta > 0:
+                self.zoom_slider.set(self.zget + 0.5)
+            elif event.delta < 0:
+                self.zoom_slider.set(self.zget - 0.5)
             self.lim = (100 // self.zget)
             t3img = self.t1img.crop((xcord - self.lim, ycord - self.lim, xcord + self.lim, ycord + self.lim))
             t4img = ctk.CTkImage(t3img, size=(400, 400))
