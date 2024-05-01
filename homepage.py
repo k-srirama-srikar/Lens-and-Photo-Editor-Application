@@ -23,12 +23,8 @@ canvas1.create_image(0, 0, image=bg_img, anchor="nw")
 def open_editor():
     # app.quit()
     app.destroy()
-    import editor
-    # try:
-    #     editorv1.app1.mainloop()
-    # except:
-    editor.app1 = ctk.CTk()
-    editor.app1.mainloop()
+        import editor
+        editor.start_editor()
     # editorv1.app1.mainloop()
 
 
@@ -46,12 +42,8 @@ def open_editor():
 
 def open_lens():
     app.destroy()
-    import lens
-    try:
-        lens.app2.mainloop()
-    except:
-        lens.app2 = lensv1.CustomTkinterApp()
-        lens.app2.mainloop()
+        from lens import start_lens
+        start_lens()
 
 
 
