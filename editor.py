@@ -1083,8 +1083,13 @@ class PhotoEdit1:
             new_width / 2, new_height / 2, image=self.new_image)
 
 # import intropagev1
-app1 = ctk.CTk()
-app1.configure(bg_color="black", fg_color="black")
-PhotoEdit1(app=app1)
 
-app1.mainloop()
+def start_editor():
+    app1 = ctk.CTk()
+    app1.configure(bg_color="black", fg_color="black")
+    PhotoEdit1(app=app1)
+
+    app1.mainloop()
+
+
+start_editor()
