@@ -787,7 +787,10 @@ class CustomTkinterApp(ctk.CTk):
             self.video_widget.remtimestamp()
 
 
-app2 = CustomTkinterApp()
+def start_lens():
+    app2 = CustomTkinterApp()
 
-if __name__ == "__main__":
     app2.mainloop()
+
+
+start_lens()
