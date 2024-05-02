@@ -752,11 +752,7 @@ class CustomTkinterApp(ctk.CTk):
     def home_page(self):
         self.destroy()
         import homepage
-        try:
-            homepage.app.mainloop()
-        except:
-            homepage.app = ctk.CTk()
-            homepage.app.mainloop()
+        homepage.start_home_page()
 
     def stop_video_stream(self):
         self.video_widget.stop()
