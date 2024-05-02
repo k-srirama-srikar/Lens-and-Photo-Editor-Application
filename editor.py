@@ -135,11 +135,7 @@ class PhotoEdit1:
         self.app.destroy()
         import homepage
 
-        try:
-            homepage.app.mainloop()
-        except:
-            homepage.app = ctk.CTk()
-            homepage.app.mainloop()
+        homepage.start_home_page()
 
     def upload_button(self):
         self.canvas.delete("all")
